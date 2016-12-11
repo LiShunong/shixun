@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<ImageView
+    android:id="@+id/fruit_image"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:src="@drawable/apple_pic"/>
+
+    <TextView
+        android:id="@+id/fruit_title"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/fruit_image"
+        android:text="苹果"/>
+
+    <TextView
+        android:id="@+id/fruit_desc"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/fruit_image"
+        android:layout_toRightOf="@+id/fruit_image"
+        android:text="这是一个苹果"/>
+
+
+</RelativeLayout>
